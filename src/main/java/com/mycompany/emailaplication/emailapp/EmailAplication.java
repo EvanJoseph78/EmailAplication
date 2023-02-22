@@ -1,8 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
-package com.mycompany.emailaplication;
+package com.mycompany.emailaplication.emailapp;
 
 /**
  *
@@ -12,5 +9,9 @@ public class EmailAplication {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        Email e = new Email("Evandro", "Mariano");
+        System.out.println(e.mostrarInformacoes());
+
     }
+    
 }
